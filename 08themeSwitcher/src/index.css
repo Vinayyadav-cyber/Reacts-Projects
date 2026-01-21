@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* This directive enables manual dark mode toggling via the 'dark' class */
+@custom-variant dark (&:where(.dark, .dark *));
